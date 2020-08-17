@@ -1,0 +1,30 @@
+{
+  "name": "excal-course",
+  "version": "1.0.0",
+  "description": "Pure JavaScript Excel App",
+  "main": "webpack.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack",
+    "build": "webpack --mode production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zionjke/excel-course.git"
+  },
+  "keywords": [
+    "js",
+    "javascript",
+    "excel"
+  ],
+  "author": "Artem Vasiliev <vincere802@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zionjke/excel-course/issues"
+  },
+  "homepage": "https://github.com/zionjke/excel-course#readme",
+  "devDependencies": {
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12"
+  }
+}
